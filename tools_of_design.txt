@@ -1,0 +1,37 @@
+- Colors :
+---------
+
+  -> Primary colors: 
+
+      -- the base color : #2d82d2
+      -- lighten colors : 60% : #579bdb, 70% : #81b4e4, 80% : #abcded, 90% : #d5e6f6
+      -- darker colors : 40% : #2468a8, 35% : #1f5b93, 30% : #1b4e7e, 25% : #164169
+  
+  -> Greys colors:
+
+      -- the base color : 5% : #0d0d0d
+      -- shades of base color : 35% : #595959, 45% : #737373, 55% : #8c8c8c, 75% : #bfbfbf, 90% : #e6e6e6, 95% : #f2f2f2, 100% : #ffffff
+      -- shades with use HSL : H 212 S 60% L 16% : #102741, H 212 S 18% L 35% : #495869, H 210 S 32% L 50% : #5780a8, 
+                               H 210 S 22% L 75% : #b1bfcd, H 210 S 32% L 93% : #e7edf3, H 210 S 15% L 90% : #e2e6e9, S 0%, L 100% : #ffffff
+
+  -> Accent colors:
+
+      -- the base color of error alerts: 50% : #ff0000
+      -- shades of base color error: 60% : #ff3333, 70%: #ff6666, 90% : #ffcccc, hue 5 degree : #ff1500, hue 7 degree : #ff1e007
+
+      -- ths base color of warning alerts : 51% : #ffc107
+      -- shades of base color warning mix with HSL and hex : H 48 S 93% L : #e7bb08, H 53 S 96% L 38% : #bea804, hsl 55 85% 75% : #f5ec89, hsl 55 90% 30% : #918608
+      -- shades of base color warning with hex : 40% : #cc9900, 35% : #b38600, 25% : #664d00, 60% : #ffcc33, 85% : #ffecb3, 95% : #fff9e6
+
+
+
+- Scale Spacing and Sizing :
+--------------------------
+
+    -- the base space use is 16 px :
+
+        - 4px, 8px, 12px, 16px, 24px, 32px, 48px, 64px, 96px, 128px, 192px, 256px, 384px, 512px, 640px, 768px.
+    
+    -- there is no base sizing in text :
+
+        - 6px, 7px, 8px, 9px, 10px, 11px, 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px, 72px.
