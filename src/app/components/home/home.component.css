@@ -1,0 +1,88 @@
+#welecom_page {
+  min-height: 100vh;
+  background-image: url("../../../assets/images/img-home.svg");
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#welecom_page .container .row .col-md-6 {
+  min-height: 578px;
+}
+
+#welecom_page .container .row .col-md-6 .content-left {
+  min-height: 289px;
+}
+
+#welecom_page .container .row .col-md-6 .content-left .header-btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#welecom_page .container .row .col-md-6 .content-left .header-btn .btn {
+  border-radius: 20px;
+  color: #2d82d2;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 2px 4px #737373;
+  width: 38%;
+  font-weight: 800;
+  line-height: 26px;
+  transition: ease-in-out;
+}
+
+#welecom_page .container .row .col-md-6 .content-left .header-btn .btn:hover {
+  border-radius: 20px;
+  color: #8c8c8c;
+  background-color: #f2f2f2;
+  transition: 0.5s;
+}
+
+#welecom_page .container .row .col-md-6 .content-left .header-text {
+  width: 100%;
+  color: #ffffff;
+}
+
+#welecom_page .container .row .col-md-6 .content-left .header-text h1 {
+  line-height: 45px;
+  font-size: 48px;
+}
+
+#welecom_page .container .row .col-md-6 img {
+  width: 100%;
+  height: 75%;
+  padding-right: 20%;
+  padding-top: 48px;
+}
+
+#welecom_page .container .row .col .links {
+  width: 100%;
+  bottom: 0;
+}
+
+#welecom_page .container .row .col .links a {
+  text-decoration: none;
+}
+
+#welecom_page .container .row .col .links a:hover .github {
+  text-decoration: underline;
+  color: #211f1f;
+}
+
+#welecom_page .container .row .col .links a:hover .linkedin {
+  text-decoration: underline;
+  color: #2867b2;
+}
+
+#welecom_page .container .row .col .links .github {
+  color: #211f1f;
+  font-size: 16px;
+}
+
+#welecom_page .container .row .col .links .linkedin {
+  color: #2867b2;
+  font-size: 16px;
+}
