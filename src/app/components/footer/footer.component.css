@@ -1,0 +1,17 @@
+/* Style General Footer Page */
+footer .footer {
+  width: 100%;
+  height: 128px;
+  background-image: url("../../../assets/images/img-footer.svg");
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer .footer h6 {
+  color: #ffffff;
+  font-size: 18px;
+}
