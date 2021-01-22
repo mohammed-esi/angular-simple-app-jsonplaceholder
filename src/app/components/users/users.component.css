@@ -1,0 +1,99 @@
+/* Style General Users Page */
+#users {
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#users .header-page {
+  background-color: #579bdb;
+  width: 100%;
+  height: 128px;
+}
+
+#users .header-page .container h1 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#users .container .row .col .header-users {
+  width: 100%;
+  height: 128px;
+}
+
+#users .container .row .col .header-users h6 {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#users .container .row .col .header-users .btn + i {
+  display: flex;
+  align-content: center;
+}
+
+#users .container .row .col .header-users i {
+  color: #164169;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+#users .container .row .col .header-users .btn {
+  color: #ffffff;
+  background-color: #2d82d2;
+  font-size: 18px;
+  font-weight: 300;
+  box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.68);
+  border-radius: 6px;
+  border: none;
+}
+
+#users .container .row .col .header-users .btn:focus {
+  box-shadow: none;
+  border: 1px solid #ffffff;
+  background-color: #579bdb;
+  box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.85);
+}
+
+#users .container .row .col .header-users .btn:hover {
+  box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.85);
+}
+
+#users .container .row .col .header-users .btn:hover i {
+  transform: rotate(360deg);
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+#users .container .row .col-4 .card {
+  border: 0.5px solid #bfbfbf;
+}
+
+#users .container .row .col-4 .card:hover {
+  box-shadow: 0px 1px 9px 0px rgba(13, 13, 13, 0.4);
+}
+
+#users .container .row .col-4 .card .card-body > h2 {
+  font-size: 21px;
+  letter-spacing: 0.5px;
+}
+
+#users .container .row .col-4 .card .card-body > .d-flex {
+  font-size: 14px;
+  line-height: 12px;
+}
+
+#users .container .row .col-4 .card .card-body > .d-flex b {
+  font-size: 16px;
+}
+
+#users .container .row .col-4 .card .card-body > .d-flex a {
+  color: #164169;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#users .container .row .col-4 .card .card-body > .d-flex a:hover {
+  text-decoration: underline;
+}
