@@ -42,6 +42,7 @@
 #users .container .row .col .header-users .btn {
   color: #ffffff;
   background-color: #2d82d2;
+  border: 1px solid #2d82d2;
   font-size: 18px;
   font-weight: 300;
   box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.68);
@@ -96,4 +97,14 @@
 
 #users .container .row .col-4 .card .card-body > .d-flex a:hover {
   text-decoration: underline;
+}
+
+#users .container .row .col .loading {
+  width: 100%;
+  height: 192px;
+}
+
+#users .container .row .col .loading .spinner-border {
+  width: 48px;
+  height: 48px;
 }
