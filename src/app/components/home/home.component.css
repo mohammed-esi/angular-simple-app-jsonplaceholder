@@ -1,3 +1,4 @@
+/* Style General Home Page */
 #welecom_page {
   min-height: 100vh;
   background-image: url("../../../assets/images/img-home.svg");
@@ -9,11 +10,11 @@
 }
 
 #welecom_page .container .row .col-md-6 {
-  min-height: 578px;
+  min-height: 460px;
 }
 
 #welecom_page .container .row .col-md-6 .content-left {
-  min-height: 289px;
+  min-height: 230px;
 }
 
 #welecom_page .container .row .col-md-6 .content-left .header-btn {
@@ -29,9 +30,11 @@
   border: none;
   box-shadow: 0px 2px 4px #737373;
   width: 38%;
-  font-weight: 800;
+  font-weight: 900;
+  letter-spacing: -0.5px;
   line-height: 26px;
-  transition: ease-in-out;
+  font-size: 21px;
+  transition: 0.3s;
 }
 
 #welecom_page .container .row .col-md-6 .content-left .header-btn .btn:hover {
@@ -55,34 +58,47 @@
   width: 100%;
   height: 75%;
   padding-right: 20%;
-  padding-top: 48px;
+  padding-top: 32px;
 }
 
-#welecom_page .container .row .col .links {
+#welecom_page .container .row .col {
+  padding-top: 20px;
   width: 100%;
-  bottom: 0;
 }
 
-#welecom_page .container .row .col .links a {
+#welecom_page .container .row .col a {
   text-decoration: none;
 }
 
-#welecom_page .container .row .col .links a:hover .github {
+#welecom_page .container .row .col a:hover .github {
   text-decoration: underline;
   color: #211f1f;
 }
 
-#welecom_page .container .row .col .links a:hover .linkedin {
+#welecom_page .container .row .col a:hover .linkedin {
   text-decoration: underline;
   color: #2867b2;
 }
 
-#welecom_page .container .row .col .links .github {
+#welecom_page .container .row .col .github {
   color: #211f1f;
   font-size: 16px;
 }
 
-#welecom_page .container .row .col .links .linkedin {
+#welecom_page .container .row .col .linkedin {
   color: #2867b2;
   font-size: 16px;
+}
+
+/* Media Query Phones Devices */
+
+/* -- I Phone Phones  */
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  #welecom_page {
+    background-color: red;
+  }
 }
