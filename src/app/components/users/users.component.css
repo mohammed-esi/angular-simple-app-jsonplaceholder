@@ -47,7 +47,6 @@
   font-weight: 300;
   box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.68);
   border-radius: 6px;
-  border: none;
 }
 
 #users .container .row .col .header-users .btn:focus {
