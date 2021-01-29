@@ -1,0 +1,246 @@
+/* Style General Posts Page */
+#posts {
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#posts .btn:focus {
+  box-shadow: none;
+}
+
+#posts .header-page {
+  background-color: #579bdb;
+  width: 100%;
+  height: 128px;
+}
+
+#posts .header-page .container h1 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#posts .container .row .col .header-posts {
+  width: 100%;
+  height: 128px;
+}
+
+#posts .container .row .col .header-posts h6 {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#posts .container .row .col .header-posts .btn + i {
+  display: flex;
+  align-content: center;
+}
+
+#posts .container .row .col .header-posts i {
+  color: #164169;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+#posts .container .row .col .header-posts .btn {
+  color: #ffffff;
+  background-color: #2d82d2;
+  border: 1px solid #2d82d2;
+  font-size: 18px;
+  font-weight: 300;
+  box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.68);
+  border-radius: 6px;
+}
+
+#posts .container .row .col .header-posts .btn:hover {
+  box-shadow: 0px 5px 13px -5px rgba(13, 13, 13, 0.85);
+}
+
+#posts .container .row .col .header-posts .btn:hover i {
+  transform: rotate(360deg);
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+#posts .container .row .col-12 .card {
+  border: 0.5px solid #bfbfbf;
+  transition: 0.3s;
+}
+
+#posts .container .row .col-12 .card:hover {
+  box-shadow: 0 1px 12px -3px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+#posts .container .row .col-12 .card .card-body .d-flex h2 {
+  font-size: 24px;
+}
+
+#posts .container .row .col-12 .card .card-body .d-flex .badge {
+  font-size: 16px;
+  height: 50%;
+  font-style: italic;
+}
+
+#posts .container .row .col-12 .card .card-body .d-flex .badge-new {
+  background-color: #2d82d2;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+#posts .container .row .col-12 .card .card-body .d-flex .badge-updated {
+  background-color: #abcded;
+  color: #164169;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex p {
+  font-size: 16px;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex a {
+  color: #164169;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex a:hover {
+  text-decoration: underline;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex .btn-edit {
+  color: #164169;
+  background-color: #abcded;
+  border: 2px solid #abcded;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 6px;
+  padding: 6px 24px;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex .btn-edit:hover {
+  border: 2px solid #164169;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex .btn-edit:focus {
+  border: 2px solid #164169;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex .btn-show {
+  color: #ffffff;
+  background-color: #2d82d2;
+  border: 2px solid #2d82d2;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 6px;
+  padding: 6px 24px;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex .btn-show:hover {
+  border: 2px solid #2d82d2;
+  color: #2d82d2;
+  background-color: #ffffff;
+}
+
+#posts .container .row .col-12 .card .card-body > .d-flex .btn-show:focus {
+  border: 2px solid #2d82d2;
+  background-color: #ffffff;
+  color: #2d82d2;
+}
+
+#posts .container .row .col .loading {
+  width: 100%;
+  height: 192px;
+}
+
+#posts .container .row .col .loading .spinner-border {
+  width: 48px;
+  height: 48px;
+}
+
+/* Style General Model of Posts Page */
+
+/* ------ Model Delete ------ */
+
+#myModal {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#myModal .modal-content {
+  border-top: 4px solid #ff0000;
+  border-radius: 0;
+}
+
+#myModal .modal-content .modal-header {
+  border-bottom: none;
+  padding-left: 32px;
+}
+
+#myModal .modal-content .modal-header .modal-title {
+  width: 100%;
+}
+
+#myModal .modal-content .modal-header h4 {
+  font-size: 24px;
+  color: #102741;
+  letter-spacing: -0.5px;
+}
+
+#myModal .modal-content .modal-header h4 i {
+  font-size: 12px;
+  border: 1px solid #ff0000;
+  border-radius: 50%;
+  padding: 2% 3%;
+  box-shadow: 0px 0px 10px #ff0000;
+  color: #ff0000;
+}
+
+#myModal .modal-content .modal-body {
+  padding-left: 48px;
+  padding-right: 16px;
+}
+
+#myModal .modal-content .modal-body p {
+  font-size: 16px;
+  color: #8c8c8c;
+  letter-spacing: normal;
+}
+
+#myModal .modal-content .modal-footer {
+  border-top: none;
+  background-color: #f2f2f2;
+}
+
+#myModal .modal-content .modal-footer .btn-cancel {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 6px 24px;
+}
+
+#myModal .modal-content .modal-footer .btn-cancel:hover {
+  text-decoration: underline;
+}
+
+#myModal .modal-content .modal-footer .btn-delete {
+  color: #ff1e00;
+  background-color: #ffcccc;
+  border: 2px solid #ffcccc;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 6px 24px;
+}
+
+#myModal .modal-content .modal-footer .btn-delete:hover {
+  color: #ff1e00;
+  background-color: #ffffff;
+  border: 2px solid #ff1e00;
+}

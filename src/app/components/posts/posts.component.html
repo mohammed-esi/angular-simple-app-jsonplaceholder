@@ -1,0 +1,84 @@
+<app-post-form [currentPost]='currentPost' (newPost)='onNewPost($event)' (updatedPost)='onUpdatePost($event)'></app-post-form>
+
+<!-- Page Of Users -->
+<section id="posts">
+
+  <!-- Navbar User -->
+  <app-navbar-user></app-navbar-user>
+
+  <!-- Content Of Page -->
+  <div class="header-page d-flex flex-wrap align-content-center">
+    <div class="container">
+      <h1>POSTS & INFORMATIONS</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="header-posts d-flex flex-wrap align-content-center">
+          <h6 class="mr-auto">Posts with a lot of information come in json place holder.</h6>
+          <button class="btn btn-primary py-2" data-toggle="modal" data-target="#modalCreatePost" >create post <i class="fas fa-chevron-right ml-3"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12" *ngFor="let post of posts">
+        <div class="card my-4">
+          <div class="card-body">
+            <div class="d-flex">
+              <h2 class="mb-4 mr-auto">{{post.title}}</h2>
+              <span [hidden]='!post.isNew' class="badge badge-new">New</span>
+              <span [hidden]='!post.isUpdate' class="badge badge-updated">Updated</span>
+            </div>
+            <div class="d-flex">
+              <p>{{post.body}}</p>
+            </div>
+            <div class="d-flex flex-wrap mt-4">
+              <a class="mr-auto mx-2" data-toggle="modal" data-target="#myModal" (click)='getPost(post)' href="#">Delete Listing</a>
+              <button class="mx-2 btn btn-edit" (click)='editPost(post)' data-toggle="modal" data-target="#myModalEditPost">Edit</button>
+              <button class="mx-2 btn btn-show">Show</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" *ngIf="loading === true">
+      <div class="col">
+        <div class="loading d-flex flex-wrap align-content-center justify-content-center">
+          <div class="spinner-border text-muted"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<app-footer></app-footer>
+
+
+<!-- The Modal Delete -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header pt-4">
+          <h4 class="modal-title"><i class="fas fa-exclamation mr-3"></i>Delete the post</h4>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>you can delete this post just from front because reload the page it's come back because we use json place holder Api.</p>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-cancel" data-dismiss="modal">Cancel</button>
+        <button (click)='removePost()' class="btn btn-delete" data-dismiss="modal">Delete</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
