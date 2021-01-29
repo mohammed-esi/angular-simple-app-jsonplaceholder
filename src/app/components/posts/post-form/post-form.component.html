@@ -1,0 +1,111 @@
+<!-- The Modal Create Post -->
+<div class="modal" id='modalCreatePost'>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header pt-4 d-flex flex-wrap align-content-end justify-content-center">
+          <h1 class="modal-title">Create Post</h1>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="alert alert-attention mx-5">
+          <div class="d-flex">
+            <i class="fas fa-exclamation mx-3 py-2"></i> <p>If reload the page after create the post it'll be gone because this app just front.</p>
+          </div>
+        </div>
+          <div class="container my-3">
+            <div class="row">
+              <div class="col">
+                <form #postForm='ngForm'>
+                  <div class="form-group mx-3">
+                    <input type="text" class="form-control" placeholder="Title Post" name="title" [(ngModel)]="currentPost.title" [ngClass]="{'is-invalid form-error': title.errors && title.touched }" required minlength="2" #title='ngModel'>
+                    <div [hidden]="!title.errors?.required"  class="invalid-feedback">
+                      Must be at least 2 characters.
+                    </div>
+                  </div>
+                  <div class="form-group form-textarea mx-3">
+                    <textarea class="form-control" placeholder="Body Post ..." name="body" [(ngModel)]="currentPost.body" [ngClass]="{'is-invalid form-error': body.errors && body.touched }" minlength="50" #body='ngModel'></textarea>
+                    <div [hidden]="!body.errors?.minlength"  class="invalid-feedback">
+                      Must be at least 50 characters.
+                    </div>
+                  </div>
+                  <input type="hidden" class="form-control" name="id" [(ngModel)]="currentPost.id">
+                  <div class="d-flex justify-content-center">
+                    <button [disabled]="!postForm.form.valid" (click)='addPost(postForm)' class="btn btn-edit-post">Craete Post</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer d-flex flex-wrap align-content-end justify-content-center">
+        <p>This card to create post and that not need user authenticated.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- The Modal Edit -->
+<div class="modal" id="myModalEditPost">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header pt-4 d-flex flex-wrap align-content-end justify-content-center">
+          <h1 class="modal-title">Edit Post</h1>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div *ngIf="postForm.form.valid" class="alert alert-warning mx-5">
+          <div class="row">
+            <div class="col-3 d-flex flex-wrap align-content-start justify-content-center">
+              <i class="fas fa-exclamation mr-3"></i>
+            </div>
+            <div class="col-9">
+              <div class="d-felx flex-column">
+                <h2>Warning</h2>
+                <p>This edit in front website not in data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="!postForm.form.valid" class="alert alert-error mx-5 my-3">
+          <div class="d-flex">
+            <i class="fas fa-exclamation mx-3 py-2"></i> <p><b>Invalid Credential</b> Must be at least characters 2 characters to title and 50 characters to body post.</p>
+          </div>
+        </div>
+        <div class="container my-3">
+          <div class="row">
+            <div class="col">
+              <form #postForm='ngForm'>
+                <div class="form-group mx-3">
+                  <input type="text" class="form-control" placeholder="Title Post" name="title" [(ngModel)]="currentPost.title" #title='ngModel'>
+                </div>
+                <div class="form-group form-textarea mx-3">
+                  <textarea class="form-control" placeholder="Body Post ..." name="body" [(ngModel)]="currentPost.body" #body='ngModel'></textarea>
+                </div>
+                <input type="hidden" class="form-control" name="id" [(ngModel)]="currentPost.id">
+                <div class="d-flex justify-content-center">
+                  <button [hidden]="!postForm.form.valid" (click)="updatePost()" data-dismiss="modal" class="btn btn-edit-post">Edit Post</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer d-flex flex-wrap align-content-end justify-content-center">
+        <p>This card to edit post and that not need user authenticated.</p>
+      </div>
+
+    </div>
+  </div>
+</div>

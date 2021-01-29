@@ -1,0 +1,320 @@
+/* ------ Model Create Post ------ */
+
+#modalCreatePost {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#modalCreatePost .modal-content {
+  min-height: 512px;
+  background-image: url("../../../../assets/images/img-edit-post.svg");
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#modalCreatePost .modal-content .modal-header {
+  border-bottom: none;
+  height: 128px;
+}
+
+#modalCreatePost .modal-content .modal-header h1 {
+  color: #102741;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#modalCreatePost .modal-content .modal-body .alert {
+  padding: 10px 8px;
+}
+
+#modalCreatePost .modal-content .modal-body .alert-attention {
+  background-color: #d5e6f6;
+  height: 70px;
+}
+
+#modalCreatePost .modal-content .modal-body .alert-attention i {
+  font-size: 12px;
+  color: #164169;
+}
+
+#modalCreatePost .modal-content .modal-body .alert-attention p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #164169;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-control {
+  background-color: #f2f2f2;
+  height: 50px;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-error {
+  border: 1px solid #ff1e00;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-textarea
+  .form-control {
+  resize: none;
+  background-color: #f2f2f2;
+  height: 100px;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-textarea
+  .form-error {
+  border: 1px solid #ff1e00;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-control::placeholder {
+  color: #8c8c8c;
+  font-size: 18px;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-control:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+[type="text"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border: 1px solid #2d82d2;
+}
+
+#modalCreatePost .modal-content .modal-body .container form .btn-edit-post {
+  color: #ffffff;
+  background-color: #2d82d2;
+  border: 2px solid #2d82d2;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 6px 24px;
+  margin-top: 12px;
+}
+
+#modalCreatePost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .btn-edit-post:hover {
+  color: #2d82d2;
+  background-color: #ffffff;
+  border: 2px solid #2d82d2;
+}
+
+#modalCreatePost .modal-content .modal-footer {
+  border-top: none;
+}
+
+#modalCreatePost .modal-content .modal-footer p {
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+/* ------ Model Edit Post ------ */
+
+#myModalEditPost {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#myModalEditPost .modal-content {
+  min-height: 512px;
+  background-image: url("../../../../assets/images/img-edit-post.svg");
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#myModalEditPost .modal-content .modal-header {
+  border-bottom: none;
+  height: 128px;
+}
+
+#myModalEditPost .modal-content .modal-header h1 {
+  color: #102741;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+#myModalEditPost .modal-content .modal-body .alert {
+  padding: 10px 8px;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-warning {
+  background-color: #fff9e6;
+  border: 2px solid #ffecb3;
+  height: 70px;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-warning i {
+  margin-top: 8px;
+  font-size: 12px;
+  border: 1px solid #ffc107;
+  border-radius: 50%;
+  padding: 8px 12px;
+  box-shadow: 0px 0px 21px #ffc107;
+  color: #664d00;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-warning .col-9 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #664d00;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-warning .col-9 p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #cc9900;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-error {
+  border-left: 3px solid #ff1e00;
+  background-color: #ffcccc;
+  height: 70px;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-error i {
+  margin-top: 6px;
+  font-size: 16px;
+  color: #ff1e00;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-error b {
+  font-size: 16px;
+  color: #ff1e00;
+}
+
+#myModalEditPost .modal-content .modal-body .alert-error p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ff3333;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+}
+
+#myModalEditPost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-control {
+  background-color: #f2f2f2;
+  height: 50px;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+#myModalEditPost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-textarea
+  .form-control {
+  resize: none;
+  background-color: #f2f2f2;
+  height: 100px;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+#myModalEditPost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-control::placeholder {
+  color: #8c8c8c;
+  font-size: 18px;
+}
+
+#myModalEditPost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .form-group
+  .form-control:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+[type="text"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border: 1px solid #2d82d2;
+}
+
+#myModalEditPost .modal-content .modal-body .container form .btn-edit-post {
+  color: #ffffff;
+  background-color: #2d82d2;
+  border: 2px solid #2d82d2;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 6px 24px;
+  margin-top: 12px;
+}
+
+#myModalEditPost
+  .modal-content
+  .modal-body
+  .container
+  form
+  .btn-edit-post:hover {
+  color: #2d82d2;
+  background-color: #ffffff;
+  border: 2px solid #2d82d2;
+}
+
+#myModalEditPost .modal-content .modal-footer {
+  border-top: none;
+}
+
+#myModalEditPost .modal-content .modal-footer p {
+  color: #8c8c8c;
+  font-size: 14px;
+}
