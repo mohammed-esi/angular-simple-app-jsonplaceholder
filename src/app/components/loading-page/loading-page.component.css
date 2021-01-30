@@ -1,0 +1,15 @@
+.loading {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.loading .d-flex img {
+  width: 72px;
+  height: 72px;
+}
+
+.loading .loading-svg img {
+  width: 48px;
+  height: 48px;
+}
