@@ -1,2 +1,6 @@
-<router-outlet></router-outlet>
-<app-loading-page></app-loading-page>
+<div *ngIf="showContent">
+  <router-outlet></router-outlet>
+</div>
+<div *ngIf="showOverlay">
+  <app-loading-page></app-loading-page>
+</div>
