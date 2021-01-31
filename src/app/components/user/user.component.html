@@ -1,0 +1,37 @@
+<div class="d-flex flex-wrap justify-content-center align-content-center" id="userProfile">
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <div class="container">
+          <div class="row my-5">
+            <div class="col d-flex justify-content-center">
+              <img src="../../../assets/images/angular-icon.svg" alt="Angular Icon" class="img-fluid">
+            </div>
+          </div>
+          <div *ngIf="user">
+            <div class="row">
+              <div class="col-md-4 my-2"><b>Name:</b> {{user.name}}</div>
+              <div class="col-md-4 my-2"><b>Username:</b> {{user.username}}</div>
+              <div class="col-md-4 my-2"><b>Email:</b> {{user.email}}</div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 my-2"><b>Address:</b> {{user.address.street}}/ {{user.address.suite}}/  {{user.address.city}}</div>
+              <div class="col-md-4 my-2"><b>Phone:</b> {{user.phone}}</div>
+              <div class="col-md-4 my-2"><b>Company:</b> {{user.company.name}}/ {{user.company.catchPhrase}}/ {{user.company.bs}}</div>
+            </div>
+            <div class="d-flex justify-content-center my-2">
+              <button [routerLink]="['/users']"  class="btn btn-user-profile">Go back to users</button>
+            </div>
+          </div>
+          <div class="row" *ngIf="loading === true">
+            <div class="col">
+              <div class="loading d-flex flex-wrap align-content-center justify-content-center">
+                <div class="spinner-border text-muted"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
