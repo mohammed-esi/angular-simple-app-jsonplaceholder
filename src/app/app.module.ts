@@ -14,7 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { PostFormComponent } from './components/posts/post-form/post-form.component';
 import { AppRoutingModule } from './app-routing.module';
-import { LoadingPageComponent } from './components/loading-page/loading-page.component'
+import { LoadingPageComponent } from './components/loading-page/loading-page.component';
+import { UserComponent } from './components/user/user.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoadingPageComponent } from './components/loading-page/loading-page.com
     FooterComponent,
     PostsComponent,
     PostFormComponent,
-    LoadingPageComponent
+    LoadingPageComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
