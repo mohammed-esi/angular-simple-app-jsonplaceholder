@@ -15,7 +15,7 @@
       <div class="col">
         <div class="header-users d-flex flex-wrap align-content-center">
           <h6 class="mr-auto">Users with their information, just Api get from json place holder.</h6>
-          <button class="btn btn-primary py-2">create user <i class="fas fa-chevron-right ml-3"></i></button>
+          <button disabled data-toggle="tooltip" title="The website doesn't completed yet!" class="btn btn-primary py-2">create user <i class="fas fa-chevron-right ml-3"></i></button>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@
               <b>Address:</b> <p class="text-muted ml-1">{{user.address.city}} {{user.address.street}} </p>
             </div>
             <div class="d-flex mt-4">
-              <a class="ml-auto" href="#">Go to profile</a>
+              <a class="ml-auto" routerLink="/user/{{user.id}}">Go to profile</a>
             </div>
           </div>
         </div>
