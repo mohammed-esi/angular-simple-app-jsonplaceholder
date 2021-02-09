@@ -1,7 +1,7 @@
 nav .navbar-brand {
   display: flex;
   align-content: center;
-  margin-left: 15%;
+  margin-left: 5%;
   color: #ffffff;
   font-size: 24px;
   letter-spacing: 0.5px;
@@ -28,4 +28,171 @@ nav ul .nav-item > .nav-link:hover {
   border-radius: 4px;
   border: 1px solid #ffffff;
   transition: 0.5s;
+}
+
+/* Media Query */
+
+/* ----------- Non-Retina Screens ----------- */
+
+/* ----------- Monitor 1920 * 1080 */
+@media screen and (min-device-width: 1680px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav .navbar-brand {
+    font-size: 32px;
+  }
+  nav .navbar-brand > i {
+    font-size: 48px;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 24px;
+  }
+}
+
+/* ----------- Monitors at least 1370 ----------- */
+@media screen and (min-device-width: 1370px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav .navbar-brand {
+    font-size: 26px;
+  }
+  nav .navbar-brand > i {
+    font-size: 38px;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 21px;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav .navbar-brand {
+    font-size: 21px;
+  }
+  nav .navbar-brand > i {
+    font-size: 32px;
+  }
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 16px;
+  }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  nav .navbar-brand {
+    font-size: 18px;
+  }
+  nav .navbar-brand > i {
+    font-size: 28px;
+  }
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 12px;
+  }
+  nav .navbar-toggler {
+    font-size: 12px;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  nav .navbar-brand {
+    font-size: 18px;
+  }
+  nav .navbar-brand > i {
+    font-size: 28px;
+  }
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 12px;
+  }
+  nav .navbar-toggler {
+    font-size: 12px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  nav .navbar-brand {
+    font-size: 18px;
+  }
+  nav .navbar-brand > i {
+    font-size: 28px;
+  }
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 14px;
+  }
+  nav .navbar-toggler {
+    font-size: 14px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  nav .navbar-brand {
+    font-size: 18px;
+  }
+  nav .navbar-brand > i {
+    font-size: 28px;
+  }
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 14px;
+  }
+  nav .navbar-toggler {
+    font-size: 14px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  nav .navbar-brand {
+    font-size: 16px;
+  }
+  nav .navbar-brand > i {
+    font-size: 24px;
+  }
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul .nav-item > .nav-link {
+    font-size: 12px;
+  }
+  nav .navbar-toggler {
+    font-size: 12px;
+  }
+}
+
+/* ----------- Query Special ----------- */
+@media (min-width: 320px) and (max-width: 768px) {
+  nav ul .nav-item {
+    display: flex;
+    justify-content: center;
+  }
 }

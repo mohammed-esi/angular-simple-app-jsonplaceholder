@@ -244,3 +244,250 @@
   background-color: #ffffff;
   border: 2px solid #ff1e00;
 }
+
+/* Media Query */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #posts .header-page {
+    height: 92px;
+  }
+  #posts .header-page .container h1 {
+    font-size: 24px;
+  }
+  #posts .container .row .col .header-posts {
+    height: 92px;
+  }
+  #posts .container .row .col .header-posts i {
+    font-size: 12px;
+  }
+  #posts .container .row .col .header-posts h6 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #posts .container .row .col .header-posts .btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex h2 {
+    font-size: 18px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex .badge {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex p {
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex a {
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-edit {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-show {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #posts .header-page {
+    height: 92px;
+  }
+  #posts .header-page .container h1 {
+    font-size: 24px;
+  }
+  #posts .container .row .col .header-posts {
+    height: 92px;
+  }
+  #posts .container .row .col .header-posts i {
+    font-size: 12px;
+  }
+  #posts .container .row .col .header-posts h6 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #posts .container .row .col .header-posts .btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex h2 {
+    font-size: 18px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex .badge {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex p {
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex a {
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-edit {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-show {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #posts .header-page {
+    height: 92px;
+  }
+  #posts .header-page .container h1 {
+    font-size: 24px;
+  }
+  #posts .container .row .col .header-posts {
+    height: 92px;
+  }
+  #posts .container .row .col .header-posts i {
+    font-size: 12px;
+  }
+  #posts .container .row .col .header-posts h6 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #posts .container .row .col .header-posts .btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex h2 {
+    font-size: 18px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex .badge {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex p {
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex a {
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-edit {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-show {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #posts .header-page {
+    height: 92px;
+  }
+  #posts .header-page .container h1 {
+    font-size: 24px;
+  }
+  #posts .container .row .col .header-posts {
+    height: 92px;
+  }
+  #posts .container .row .col .header-posts i {
+    font-size: 12px;
+  }
+  #posts .container .row .col .header-posts h6 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #posts .container .row .col .header-posts .btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex h2 {
+    font-size: 18px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex .badge {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex p {
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex a {
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-edit {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-show {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #posts .header-page {
+    height: 92px;
+  }
+  #posts .header-page .container h1 {
+    font-size: 24px;
+  }
+  #posts .container .row .col .header-posts {
+    height: 92px;
+  }
+  #posts .container .row .col .header-posts i {
+    font-size: 12px;
+  }
+  #posts .container .row .col .header-posts h6 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #posts .container .row .col .header-posts .btn {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex h2 {
+    font-size: 18px;
+  }
+  #posts .container .row .col-12 .card .card-body .d-flex .badge {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex {
+    font-size: 12px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex p {
+    font-size: 14px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex a {
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-edit {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+  #posts .container .row .col-12 .card .card-body > .d-flex .btn-show {
+    padding: 2px 12px;
+    font-size: 10px;
+  }
+}

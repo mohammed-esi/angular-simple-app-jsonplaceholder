@@ -66,35 +66,35 @@
   color: #ffffff;
 }
 
-#users .container .row .col-4 .card {
+#users .container .row .col-lg-4 .card {
   border: 0.5px solid #bfbfbf;
 }
 
-#users .container .row .col-4 .card:hover {
+#users .container .row .col-lg-4 .card:hover {
   box-shadow: 0px 1px 9px 0px rgba(13, 13, 13, 0.4);
 }
 
-#users .container .row .col-4 .card .card-body > h2 {
+#users .container .row .col-lg-4 .card .card-body > h2 {
   font-size: 21px;
   letter-spacing: 0.5px;
 }
 
-#users .container .row .col-4 .card .card-body > .d-flex {
+#users .container .row .col-lg-4 .card .card-body > .d-flex {
   font-size: 14px;
   line-height: 12px;
 }
 
-#users .container .row .col-4 .card .card-body > .d-flex b {
+#users .container .row .col-lg-4 .card .card-body > .d-flex b {
   font-size: 16px;
 }
 
-#users .container .row .col-4 .card .card-body > .d-flex a {
+#users .container .row .col-lg-4 .card .card-body > .d-flex a {
   color: #164169;
   font-size: 16px;
   font-weight: 700;
 }
 
-#users .container .row .col-4 .card .card-body > .d-flex a:hover {
+#users .container .row .col-lg-4 .card .card-body > .d-flex a:hover {
   text-decoration: underline;
 }
 
@@ -106,4 +106,167 @@
 #users .container .row .col .loading .spinner-border {
   width: 48px;
   height: 48px;
+}
+
+/* Media Query */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #users .container .row .col .header-users .btn {
+    display: none;
+  }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #users .header-page {
+    height: 92px;
+  }
+  #users .header-page .container h1 {
+    font-size: 24px;
+  }
+  #users .container .row .col .header-users h6 {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex b {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex a {
+    font-size: 14px;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #users .header-page {
+    height: 92px;
+  }
+  #users .header-page .container h1 {
+    font-size: 24px;
+  }
+  #users .container .row .col .header-users h6 {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex b {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex a {
+    font-size: 14px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #users .header-page {
+    height: 92px;
+  }
+  #users .header-page .container h1 {
+    font-size: 24px;
+  }
+  #users .container .row .col .header-users h6 {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex b {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex a {
+    font-size: 14px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #users .header-page {
+    height: 92px;
+  }
+  #users .header-page .container h1 {
+    font-size: 24px;
+  }
+  #users .container .row .col .header-users h6 {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex b {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex a {
+    font-size: 14px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #users .header-page {
+    height: 92px;
+  }
+  #users .header-page .container h1 {
+    font-size: 24px;
+  }
+  #users .container .row .col .header-users h6 {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex b {
+    font-size: 14px;
+  }
+  #users .container .row .col-lg-4 .card .card-body > .d-flex a {
+    font-size: 14px;
+  }
+}
+
+/* ----------- Query Special ----------- */
+@media (min-width: 320px) and (max-width: 768px) {
+  #users .container .row .col .header-users .btn {
+    display: none;
+  }
 }
